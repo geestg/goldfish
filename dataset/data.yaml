@@ -1,0 +1,30 @@
+# ============================================================
+#  Dataset Configuration for YOLOv8 Pose Estimation (Goldfish)
+# ============================================================
+
+# Root path for dataset
+path: D:/goldfish/dataset
+
+# Dataset splits
+train: train/images
+val: valid/images
+
+# Class information
+nc: 1
+names:
+  0: goldfish
+
+# Keypoint configuration
+# kpt_shape = [jumlah_keypoint, dimensi(x,y,visible)]
+kpt_shape: [2, 3]
+
+# Mapping pasangan keypoint saat augmentasi horizontal flip
+flip_idx: [1, 0]
+
+# Metadata dari Roboflow (opsional, tidak memengaruhi training)
+roboflow:
+  workspace: goldfishposeworkspace
+  project: goldfish-yolo-pose-5j7bv
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/goldfishposeworkspace/goldfish-yolo-pose-5j7bv/3

@@ -1,9 +1,0 @@
-train: D:/goldfish/dataset_pose/train/images
-val: D:/goldfish/dataset_pose/valid/images
-
-nc: 1
-names: ["goldfish"]
-
-kpt_shape: [2, 3]
-
-flip_idx: [1, 0]
