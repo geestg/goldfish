@@ -1,7 +1,7 @@
 import os
 
 # Path folder gambar
-folder_path = r"D:\goldfish\dataset_pose\images\train"
+folder_path = r"D:\goldfish\frame\101-200"
 
 # Ambil semua file gambar
 files = os.listdir(folder_path)
